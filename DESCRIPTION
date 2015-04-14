@@ -1,0 +1,17 @@
+Package: parsimonious
+Type: Package
+Version: 0.1
+Date: 2015-04-14
+Title: Estimates models with parsimoniously time-varying parameters.
+License: MIT + file LICENSE
+Author: Laurent Callot, Johannes Tang Kristensen
+Maintainer: Laurent Callot <l.callot@vu.nl>
+URL: https://github.com/lcallot/parsimonious
+LazyLoad: yes
+Description: Estimates models with parsimoniously time-varying parameters.
+Depends:
+    R (>= 3.0.0)
+Imports:
+    glmnet,
+    ggplot2,
+    reshape2
